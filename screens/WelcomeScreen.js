@@ -12,7 +12,7 @@ function WelcomeScreen() {
   useEffect(() => {
     axios
       .get(
-        "https://expense-tracker-app-727e3-default-rtdb.firebaseio.com/message.json?auth=" +
+        "https://react-native-course-9a553-default-rtdb.firebaseio.com/message.json?auth=" +
           token
       )
       .then((response) => setFetchedMessage(response.data));

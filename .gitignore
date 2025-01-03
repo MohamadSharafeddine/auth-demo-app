@@ -29,3 +29,5 @@ Thumbs.db
 #Expo
 .expo/
 .expo-shared/
+
+.env
